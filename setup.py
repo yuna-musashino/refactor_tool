@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='refactor_tool',
-    version='0.1',
+    version='0.3',
     packages=find_packages(),
     install_requires=[
         'autopep8',
@@ -18,7 +18,6 @@ setup(
             'refactor-tool=refactor_tool:main',
         ],
     },
-    install_requires=[],
     author="Yuna Suzuki",
     author_email="s2222077@stu.musashino-u.ac.jp",
     description="A tool for improving code quality by analyzing and refactoring project code.",
